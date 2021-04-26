@@ -1,0 +1,8 @@
+.place__website {
+    margin: 0;
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+    grid-area: website;
+    min-height: 46px;
+}

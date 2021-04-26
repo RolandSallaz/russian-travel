@@ -1,0 +1,22 @@
+.place__image {
+    margin: 0;
+    grid-area: image;
+    max-width: 100%;
+    min-height: 460px;
+}
+
+@media screen and (max-width:1024px) {
+    .place__image {
+        max-width: calc(100% - 20px);
+        min-height: 440px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .place__image {
+        min-height: 320px;
+        max-width: calc(100% + 35px);
+        min-height: 320px;
+        margin-left: -17px;
+    }
+}
