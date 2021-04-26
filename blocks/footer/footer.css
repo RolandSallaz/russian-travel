@@ -1,6 +1,5 @@
 .footer {
     width: calc(100% - 96px);
-    height: 16px;
     margin: 92px 48px 0 48px;
     padding-bottom: 24px;
     display: flex;
@@ -21,6 +20,3 @@
         margin: 64px 0 0 16px;
     }
 }
-
-
-/* сори за код, ночь не спал -__- */
