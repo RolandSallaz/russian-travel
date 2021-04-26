@@ -3,4 +3,6 @@
     color: #fff;
     font-family: Inter;
     width: 100vw;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
