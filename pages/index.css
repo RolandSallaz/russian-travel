@@ -3,6 +3,10 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/inter.css);
 
+/* body */
+
+@import url(../blocks/body/body.css);
+
 /* page */
 
 @import url(../blocks/page/page.css);
@@ -13,6 +17,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__link_active.css);
 
 /* lead */
 
@@ -21,6 +26,7 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__fig/lead__fig.css);
 
 /* intro */
 
@@ -56,8 +62,7 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__container/cover__container.css);
+@import url(../blocks/cover/__link/cover__link.css);
 
 /* footer */
 
@@ -69,5 +74,4 @@
 
 /* links effect */
 
-@import url(../blocks/link-active/link-active.css);
 @import url(../blocks/link-hover/link-hover.css);

@@ -9,6 +9,13 @@
     display: flex;
 }
 
+@media screen and (max-width:768px) {
+    .footer__link {
+        font-size: 2vw;
+        line-height: 24px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .footer__link {
         font-size: 24px;

@@ -6,7 +6,7 @@
 @media screen and (max-width:1024px) {
     .lead {
         margin: 48px 48px 0 48px;
-        width: calc(100% - 96px);
+        width: calc(100% - 80px);
     }
 }
 

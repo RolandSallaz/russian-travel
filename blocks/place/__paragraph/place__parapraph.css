@@ -22,14 +22,19 @@
     .place__paragraph {
         max-width: 353px;
         font-size: 16px;
-        line-height: 163%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .place__paragraph {
+        max-width: 288px;
+        font-size: 3vw;
     }
 }
 
 @media screen and (max-width:320px) {
     .place__paragraph {
         font-size: 16px;
-        max-height: 288px;
-        max-width: 360px;
+        line-height: 26px;
     }
 }

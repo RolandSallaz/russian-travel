@@ -6,19 +6,20 @@
     font-weight: 900;
     max-width: 720px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 @media screen and (max-width:1024px) {
     .lead__title {
-        margin: 0 auto 0 104px;
+        margin: 0 auto;
+        font-size: 10vw;
     }
 }
 
 @media screen and (max-width:768px) {
     .lead__title {
         max-width: calc(100% - 48px);
-        margin: 0 auto 0 25px;
+        margin: 0 auto;
+        font-size: 12vw;
     }
 }
 

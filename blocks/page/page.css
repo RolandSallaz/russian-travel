@@ -1,8 +1,9 @@
 .page {
-    background-color: #2A2C2F;
     color: #fff;
-    font-family: Inter;
+    font-family: 'Inter', ‘Arial’, sans-serif;
     width: 100%;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    max-width: 1600px;
+    margin: 0 auto;
 }

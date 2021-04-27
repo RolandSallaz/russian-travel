@@ -1,12 +1,12 @@
 .places {
     width: calc(100% - 296px);
-    margin: 92px 148px 0 148px;
+    margin: 98px 148px 0 148px;
 }
 
 @media screen and (max-width:1024px) {
     .places {
         width: calc(100% - 96px);
-        margin: 87px 48px 0 48px;
+        margin: 92px 48px 0 48px;
     }
 }
 
@@ -17,9 +17,19 @@
     }
 }
 
+@media screen and (max-width:450px) {
+    /* борьба со скроллом */
+    .places {
+        width: 100%;
+        margin: 0;
+        margin-top: 88px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .places {
-        width: calc(100% - 32px);
-        margin: 8px 16px 0 16px;
+        width: 100%;
+        margin: 0;
+        margin-top: 69px;
     }
 }
