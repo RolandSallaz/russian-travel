@@ -1,5 +1,5 @@
 .cover {
-    background: no-repeat center/cover url(../../../images/cover__background.png);
+    background: no-repeat center/cover url(../../images/cover__background.png);
     object-fit: cover;
     max-width: calc(100% - 96px);
     margin: 0 48px;
