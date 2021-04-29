@@ -4,19 +4,25 @@
     line-height: 16px;
     font-style: normal;
     font-weight: normal;
+    min-width: 162px;
+    margin-top: 6px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .footer__copyright {
+        line-height: 14px;
         margin-top: 3px;
-        margin-right: 24px;
-        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .footer__copyright {
+        margin-top: 37px;
     }
 }
 
 @media screen and (max-width:320px) {
     .footer__copyright {
         margin-top: 48px;
-        line-height: 14px;
     }
 }

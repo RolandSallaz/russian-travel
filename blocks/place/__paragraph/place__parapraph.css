@@ -25,16 +25,11 @@
     }
 }
 
-@media screen and (max-width:450px) {
-    .place__paragraph {
-        max-width: 288px;
-        font-size: 3vw;
-    }
-}
-
-@media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
+        max-width: 288px;
+        margin-left: 16px;
     }
 }

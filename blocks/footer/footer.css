@@ -13,10 +13,16 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:680px) {
+    .footer {
+        width: calc(100% - 32px);
+        margin: 88px 16px 0 16px;
+    }
+}
+
+@media screen and (max-width:620px) {
     .footer {
         flex-direction: column;
-        padding-bottom: 340px;
         margin: 34px 0 0 16px;
     }
 }
