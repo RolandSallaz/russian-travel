@@ -5,14 +5,12 @@
     font-style: normal;
     font-weight: 900;
     max-width: 720px;
-    min-height: 200px;
     margin: 0 auto;
 }
 
 @media screen and (max-width:767px) {
     .lead__title {
         font-size: 70px;
-        min-height: 88px;
     }
 }
 

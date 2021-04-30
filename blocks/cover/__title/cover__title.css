@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:370px) {
+@media screen and (max-width:380px) {
     .cover__title {
         font-size: 19vw;
     }
