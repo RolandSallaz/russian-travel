@@ -6,12 +6,6 @@
     line-height: 22px;
 }
 
-@media screen and (max-width:423px) {
-    .place__link {
-        font-size: 3vw;
-    }
-}
-
 @media screen and (max-width:320px) {
     .place__link {
         font-size: 18px;
